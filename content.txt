@@ -1,0 +1,10 @@
+@dataclass is a decorator that is used to  just repklace th __init__() constructor that we always create afer defining the class its just a way to replace this broing boilerplate 
+we can write it as 
+@dataclass
+class Animal:
+    name:str
+    color:str
+
+MONGODB URL ENV me powershell se aise karte :  $env:MONGODB_URL = "mongodb+srv://sumranharchirkar58_db_user:<db_password>@cluster0.jlzhulg.mongodb.net/?appName=Cluster0
+"
+and set hua ya nahi usko chek aise karte :   echo $env:MONGODB_URL
