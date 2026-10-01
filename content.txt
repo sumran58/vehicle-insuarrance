@@ -1,4 +1,0 @@
-mongodb+srv://sumranharchirkar58_db_user:<db_password>@cluster0.jlzhulg.mongodb.net/?appName=Cluster0
-
-user: sumranharchirkar58_db_user
-passc: iZwZCVocjctjbw8o
