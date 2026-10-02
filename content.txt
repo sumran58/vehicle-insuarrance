@@ -8,3 +8,10 @@ class Animal:
 MONGODB URL ENV me powershell se aise karte :  $env:MONGODB_URL = "mongodb+srv://sumranharchirkar58_db_user:<db_password>@cluster0.jlzhulg.mongodb.net/?appName=Cluster0
 "
 and set hua ya nahi usko chek aise karte :   echo $env:MONGODB_URL
+
+
+cors (cross origin resource sharing ) this we put it in ou fastapi code this will allow all the port mapping vbecause frontend connect  whic is on 
+different port to the server which is unning on different port so sometimes browser  blocks it thi scors allows all the rquest comming 
+orgins=["*"]
+app.add_middleware.... aise cod likte 
+
